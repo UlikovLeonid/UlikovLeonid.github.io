@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+#slider {
+  width: 800px;
+  height: auto;
+  margin: 50px auto;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+#line {
+  width: 6400px;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+#line img {
+  float: left;
+}
+#line::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
