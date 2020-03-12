@@ -216,18 +216,6 @@ img {
   border-radius: 20px;
   display: none;
 }
-/* 
-.form__contact input {
-  background-color: ;
-  text-align: center;
-  width: 100%;
-  height: 40px;
-  font-size: 26px;
-  color: #aa0014;
-  text-transform: uppercase;
-  margin-bottom: 25px;
-  border-radius: 20px;
-} */
 
 /*  ФУТЕР  */
 
@@ -238,6 +226,7 @@ footer {
   height: auto;
   margin: 0 auto;
   padding: 10px 0;
+  background-color: #000;
   color: #dbd7d7;
 }
 .footer__logo {

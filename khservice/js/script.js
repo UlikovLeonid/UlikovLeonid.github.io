@@ -1,4 +1,4 @@
-
+autoSlider();
 var left = 0;
 var timer;
 
@@ -14,4 +14,3 @@ function autoSlider() {
 		autoSlider();
 	}, 3000);
 }
-autoSlider();
