@@ -91,6 +91,7 @@ img {
 }
 
 .header__phone {
+  text-align: left;
 }
 .header__logo {
   font-family: "Born Addict";
@@ -99,6 +100,7 @@ img {
   color: #aa0014;
 }
 .header__info {
+  text-align: right;
 }
 .header__promo {
   font-family: "Montserrat", sans-serif;
@@ -145,31 +147,27 @@ img {
 }
 
 /*  СЛАЙДЕР  */
-.slider {
+
+#slider {
   max-width: 1000px;
   height: auto;
   margin: 0 auto;
+  border: 5px solid #fff;
+  overflow: hidden;
 }
-
-.sl__slide {
+#line {
+  width: 4000px;
   position: relative;
+  left: 0;
+  transition: all ease 1s;
 }
-
-.sl__text {
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  padding: 20px 0;
+#line img {
+  float: left;
 }
-
-.sl__title,
-.sl__desc {
-  margin: 0;
-  padding: 0 10px;
+#line::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /*  КОНТАКТЫ  */
@@ -218,7 +216,7 @@ img {
   border-radius: 20px;
   display: none;
 }
-
+/* 
 .form__contact input {
   background-color: ;
   text-align: center;
@@ -229,7 +227,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 25px;
   border-radius: 20px;
-}
+} */
 
 /*  ФУТЕР  */
 
