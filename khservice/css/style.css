@@ -149,10 +149,11 @@ img {
 /*  СЛАЙДЕР  */
 
 #slider {
+  width: 100%;
   max-width: 1000px;
   height: auto;
   margin: 0 auto;
-  border: 5px solid #fff;
+  border: 3px solid #666;
   overflow: hidden;
 }
 #line {
@@ -162,7 +163,9 @@ img {
   transition: all ease 1s;
 }
 #line img {
+  max-width: 100%;
   float: left;
+  height: auto;
 }
 #line::after {
   content: "";
@@ -172,7 +175,6 @@ img {
 
 /*  КОНТАКТЫ  */
 .contacts {
-  border-top: 2px solid #323232;
   border-bottom: 2px solid #323232;
 }
 .contacts__container {
